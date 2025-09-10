@@ -12,6 +12,6 @@ sleep(1)
 if n == c:
     print('Você venceu!!!')
 else:
-    print(f'VCOÊ PERDEU!!! Eu pensei no número {c}')
+    print(f'VOCÊ PERDEU!!! Eu pensei no número {c}')
 
 
