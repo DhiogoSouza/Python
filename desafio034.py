@@ -9,8 +9,6 @@ superior = salario + (salario * 10 / 100)
 inferior = salario + (salario * 15 / 100)
 if salario > 1250:
     print(f'Quem ganhava R${salario} passa a ganhar {superior:.2f}')
-if salario < 1250:
+if salario <= 1250:
     print(f' Quem ganhava R${salario} passa a ganhar {inferior}')
-if salario == 1250:
-    print(f'Quem ganha R${salario} não receberá aumento!!!')
 
