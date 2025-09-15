@@ -1,9 +1,9 @@
 #variaveis e opções de escola pro usuario
 num = int(input('Digite um número inteiro: '))
 print('Escola uma das bases para converter:')
-print('[1] BINÁRIO')
-print('[2] OCTAL')
-print('[3] HEXADECIMAL')
+print('''[1] BINÁRIO
+[2] OCTAL
+[3] HEXADECIMAL''')
 conversao = int(input('Sua opção: '))
 
 #realizando conversão
