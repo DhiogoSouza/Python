@@ -15,3 +15,5 @@ while mais != 0:
     print('PAUSA!')
     mais = int(input('Quantos termos você quer mostrar a mais? '))
 print(f'Programa finalizado com {total} termos mostrados.')
+
+
